@@ -40,4 +40,6 @@ This project focuses on **sentiment analysis** using a combined dataset from IMD
   - Provide a simple and interactive experience for sentiment prediction.
 
 ---
-
+link to datasets :
+processed: https://www.dropbox.com/scl/fo/5prr5vkphvftcww42m2xb/AISLL19_NGXePoNsoNc1uG4?rlkey=l3ne0ijpwvbvsv80h7m58cy2z&st=i6tmo8jo&dl=0
+raw: https://www.dropbox.com/scl/fo/w0y9yy24cvt7hys0lwy3x/AHDrFUP24ibYTpP3M0aa5z4?rlkey=ogsetl5d5vhwnsycvt22q00ag&st=ajf4k2wj&dl=0
