@@ -1,0 +1,24 @@
+                             text      label   text_length
+count                     1675000  1625000.0  1.675000e+06
+unique                    1655523        NaN           NaN
+top     isPlayer Has Died! Sorry         NaN           NaN
+freq                          210        NaN           NaN
+mean                          NaN        0.5  1.302484e+02
+std                           NaN        0.5  3.371898e+02
+min                           NaN        0.0  6.000000e+00
+25%                           NaN        0.0  4.500000e+01
+50%                           NaN        0.5  7.200000e+01
+75%                           NaN        1.0  1.100000e+02
+max                           NaN        1.0  1.428200e+04
+
+Missing Data:
+text               0
+label          50000
+text_length        0
+dtype: int64
+
+Label Distribution:
+label
+1.0    812500
+0.0    812500
+Name: count, dtype: int64
