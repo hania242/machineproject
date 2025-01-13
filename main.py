@@ -1,7 +1,7 @@
 
 # main.py
 #from scripts.paths import RAW_DATA_PATH, CLEANSED_DATA_PATH, PREPROCESSED_DATA_PATH, RAW_TEXT_PATH, VOTING_MODEL_PATH
-#from scripts.preprocessing import preprocess_data
+from scripts.preprocessing import preprocess_data
 #from scripts.training import train_model
 #from scripts.evaluation import evaluate_model
 
@@ -23,7 +23,7 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 from scripts.evaluation import evaluate_model
 
 # Define Hugging Face model path
-HUGGINGFACE_MODEL_PATH = "your-username/sentiment-analysis-model"
+HUGGINGFACE_MODEL_PATH = "hbaltaji/sentiment-analysis-model"
 
 def evaluate_pipeline():
     print("Loading Hugging Face model for evaluation...")
@@ -32,7 +32,7 @@ def evaluate_pipeline():
     model = AutoModelForSequenceClassification.from_pretrained(HUGGINGFACE_MODEL_PATH)
 
     # Path to preprocessed data for evaluation
-    PREPROCESSED_DATA_PATH = "path_to_your_preprocessed_data"  # Update this to your actual file path
+    PREPROCESSED_DATA_PATH = "preprocess_data"  # Update this to your actual file path
 
     print("Starting model evaluation...")
     # Evaluate the model
