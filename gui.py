@@ -66,7 +66,7 @@ model, tokenizer = load_huggingface_model()
 label_mapping = {0: "Negative", 1: "Positive"}
 
 # Streamlit app title
-st.title("Sentiment Analysis GUI with Hugging Face Model")
+st.title("Sentiment Analysis Model")
 
 # Input text
 input_text = st.text_input("Enter text to analyze:")
