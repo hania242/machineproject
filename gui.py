@@ -55,8 +55,8 @@ import torch
 @st.cache_resource()
 def load_huggingface_model():
     # Replace "your-username/sentiment-analysis-model" with your Hugging Face model path
-    model = AutoModelForSequenceClassification.from_pretrained("your-username/sentiment-analysis-model")
-    tokenizer = AutoTokenizer.from_pretrained("your-username/sentiment-analysis-model")
+    model = AutoModelForSequenceClassification.from_pretrained("hbaltaji/sentiment-analysis-model")
+    tokenizer = AutoTokenizer.from_pretrained("hbaltaji/sentiment-analysis-model")
     return model, tokenizer
 
 # Load the model and tokenizer
